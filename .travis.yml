@@ -10,7 +10,7 @@ jobs:
     - <<: *test
       node_js: 'lts/*'
     - <<: *test
-      node_js: 6
+      node_js: 8
 
 script: npm run $SCRIPT
 
