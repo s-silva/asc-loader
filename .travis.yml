@@ -1,0 +1,18 @@
+language: node_js
+
+jobs:
+  fast_finish: true
+  include:
+    - &test
+      stage: 'Test'
+      env: SCRIPT=test
+      node_js: 'stable'
+    - <<: *test
+      node_js: 'lts/*'
+    - <<: *test
+      node_js: 6
+
+script: npm run $SCRIPT
+
+notifications:
+  email: false
