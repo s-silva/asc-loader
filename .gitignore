@@ -4,3 +4,4 @@ npm-debug.log
 yarn-error.log
 jest
 node_modules
+yarn.lock
