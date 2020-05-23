@@ -1,13 +1,13 @@
 {
   "name": "asc-loader",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "AssemblyScript loader for Webpack",
   "main": "src/index.js",
   "files": [
     "src"
   ],
   "engines": {
-    "node": ">= 8"
+    "node": ">= 12"
   },
   "dependencies": {
     "loader-utils": "^2.0.0",
