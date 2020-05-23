@@ -95,7 +95,7 @@ function compile(context, input, options, cb) {
       if (ranOnce) return;
       else ranOnce = true;
 
-      if (err) return cb(new Error(streams.out.toString()));
+      if (err) return cb(new Error(streams.err.toString()));
       return cb(null, compiled);
     })
   })
@@ -155,6 +155,8 @@ function loader(content) {
 
 
   return compile(self, this.resourcePath, options, function (err, output) {
+    if (err) return callback(err);
+
     var sourceMap = output['binary.map']
     var injected = injectors.compile(output['binary'],
       options.build ? publicPath : null);
