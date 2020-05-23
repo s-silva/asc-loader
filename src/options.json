@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "anyOf": [ { "type": "string" }, { "instanceof": "Function" } ]
+    },
+    "outputPath": {
+      "anyOf": [ { "type": "string" }, { "instanceof": "Function" } ]
+    },
+    "publicPath": {
+      "anyOf": [ { "type": "string" }, { "instanceof": "Function" } ]
+    },
+    "context": {
+      "type": "string"
+    },
+    "regExp": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "instanceof": "RegExp"
+        }
+      ]
+    },
+    "sourceMap": {
+      "type": "boolean"
+    },
+    "use": {
+      "type": "array"
+    },
+    "importMemory": {
+      "type": "boolean"
+    },
+    "noExportMemory": {
+      "type": "boolean"
+    },
+    "optimize": {
+      "type": [ "boolean", "string" ]
+    }
+  },
+  "additionalProperties": true
+}

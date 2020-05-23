@@ -1,0 +1,43 @@
+{
+  "name": "asc-loader",
+  "version": "1.0.0",
+  "description": "AssemblyScript loader for Webpack",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">= 6"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "schema-utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "@assemblyscript/loader": "^0.10.0",
+    "@webpack-utilities/test": "^1.0.0-alpha.0",
+    "assemblyscript": "^0.10.0",
+    "jest": "^26.0.1",
+    "standard": "^11.0.0",
+    "standard-version": "^4.0.0",
+    "webpack": "^4.0.0"
+  },
+  "scripts": {
+    "lint": "standard --env jest",
+    "test": "jest --env node --verbose --runInBand --detectOpenHandles",
+    "release": "standard-version"
+  },
+  "keywords": [
+    "assemblyscript",
+    "asc",
+    "webassembly",
+    "wasm",
+    "webpack",
+    "webpack-loader"
+  ],
+  "author": "Sandaruwan Silva <san@resample.net>",
+  "repository": "https://github.com/s-silva/asc-loader.git",
+  "bugs": "https://github.com/s-silva/asc-loader/issues",
+  "homepage": "https://github.com/s-silva/asc-loader#readme",
+  "license": "MIT"
+}
