@@ -63,11 +63,11 @@ httpd.serve_forever()
 [npm]: https://img.shields.io/npm/v/asc-loader.svg
 [npm-url]: https://npmjs.com/package/asc-loader
 
-[node]: https://img.shields.io/node/s-silva/asc-loader.svg
+[node]: https://img.shields.io/node/v/asc-loader.svg
 [node-url]: https://nodejs.org
 
 [deps]: https://david-dm.org/s-silva/asc-loader.svg
 [deps-url]: https://david-dm.org/s-silva/asc-loader
 
-[tests]: https://img.shields.io/travis/s-silva/asc-loader.svg
+[tests]: https://travis-ci.org/s-silva/asc-loader.svg
 [tests-url]: https://travis-ci.org/s-silva/asc-loader
