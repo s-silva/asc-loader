@@ -60,14 +60,14 @@ httpd = SocketServer.TCPServer(("", PORT), Handler)
 httpd.serve_forever()
 ```
 
-[npm]: https://img.shields.io/npm/v/postcss-loader.svg
-[npm-url]: https://npmjs.com/package/postcss-loader
+[npm]: https://img.shields.io/npm/v/asc-loader.svg
+[npm-url]: https://npmjs.com/package/asc-loader
 
-[node]: https://img.shields.io/node/v/postcss-loader.svg
+[node]: https://img.shields.io/node/s-silva/asc-loader.svg
 [node-url]: https://nodejs.org
 
-[deps]: https://david-dm.org/postcss/postcss-loader.svg
-[deps-url]: https://david-dm.org/postcss/postcss-loader
+[deps]: https://david-dm.org/s-silva/asc-loader.svg
+[deps-url]: https://david-dm.org/s-silva/asc-loader
 
-[tests]: https://img.shields.io/travis/postcss/postcss-loader.svg
-[tests-url]: https://travis-ci.org/postcss/postcss-loader
+[tests]: https://img.shields.io/travis/s-silva/asc-loader.svg
+[tests-url]: https://travis-ci.org/s-silva/asc-loader
