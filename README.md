@@ -9,8 +9,15 @@ AssemblyScript loader for Webpack.
 ## Installation
 
 ```bash
+# npm
 npm i -D asc-loader
+npm i -D @assemblyscript/loader
+npm i -D assemblyscript
+
+# yarn
 yarn add -D asc-loader
+yarn add -D @assemblyscript/loader
+yarn add -D assemblyscript
 ```
 
 ## Configuration
