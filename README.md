@@ -1,3 +1,8 @@
+[![npm][npm]][npm-url]
+[![node][node]][node-url]
+[![deps][deps]][deps-url]
+[![tests][tests]][tests-url]
+
 # ASC Loader
 AssemblyScript loader for Webpack.
 
@@ -54,3 +59,15 @@ Handler.extensions_map['.wasm'] = 'application/wasm'
 httpd = SocketServer.TCPServer(("", PORT), Handler)
 httpd.serve_forever()
 ```
+
+[npm]: https://img.shields.io/npm/v/postcss-loader.svg
+[npm-url]: https://npmjs.com/package/postcss-loader
+
+[node]: https://img.shields.io/node/v/postcss-loader.svg
+[node-url]: https://nodejs.org
+
+[deps]: https://david-dm.org/postcss/postcss-loader.svg
+[deps-url]: https://david-dm.org/postcss/postcss-loader
+
+[tests]: https://img.shields.io/travis/postcss/postcss-loader.svg
+[tests-url]: https://travis-ci.org/postcss/postcss-loader
