@@ -76,5 +76,5 @@ httpd.serve_forever()
 [deps]: https://david-dm.org/s-silva/asc-loader.svg
 [deps-url]: https://david-dm.org/s-silva/asc-loader
 
-[tests]: https://travis-ci.org/s-silva/asc-loader.svg
+[tests]: https://travis-ci.org/s-silva/asc-loader.svg?branch=master
 [tests-url]: https://travis-ci.org/s-silva/asc-loader
