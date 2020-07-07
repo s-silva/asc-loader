@@ -1,6 +1,6 @@
 {
   "name": "asc-loader",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "AssemblyScript loader for Webpack",
   "main": "src/index.js",
   "files": [
