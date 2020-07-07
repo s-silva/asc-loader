@@ -22,6 +22,34 @@ yarn add -D assemblyscript
 
 ## Configuration
 
+### Webpack 5
+
+**`webpack.config.js`**
+```js
+module.exports = {
+  module: {
+    rules: [ {
+      test: /\.ts$/,
+      include: /src\/assembly/,
+      use: [
+        {
+          loader: 'asc-loader',
+          options: {
+            name: 'static/wasm/[name].[hash:8].wasm',
+            build: false, /* enable in production */
+            optimize: '-O',
+            importMemory: true,
+            use: [ 'Math=JSMath' ]
+          }
+        }
+      ]
+    } ]
+  }
+}
+```
+
+### Webpack 4
+
 **`webpack.config.js`**
 ```js
 module.exports = {
