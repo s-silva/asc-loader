@@ -22,8 +22,6 @@ yarn add -D assemblyscript
 
 ## Configuration
 
-### Webpack 5
-
 **`webpack.config.js`**
 ```js
 module.exports = {
@@ -48,7 +46,7 @@ module.exports = {
 }
 ```
 
-### Webpack 4
+### Alternative Configuration
 
 **`webpack.config.js`**
 ```js
@@ -69,6 +67,10 @@ module.exports = {
   }
 }
 ```
+
+## Examples
+
+* [Factorial Example](https://github.com/s-silva/asc-loader/tree/master/examples/factorial)
 
 ## Create React App
 
