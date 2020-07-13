@@ -19,7 +19,7 @@
     "assemblyscript": "^0.10.0",
     "jest": "^26.0.1",
     "standard": "^14.3.4",
-    "standard-version": "^4.0.0",
+    "standard-version": "^8.0.1",
     "webpack": "^4.0.0"
   },
   "scripts": {
